@@ -14,6 +14,7 @@ import { Heroe } from '../../interfaces/heroes.interface';
 })
 export class HeroeTarjetaComponent  {
 
+  //lo envias al listado.components
 @Input() heroe!: Heroe;
 
 }
